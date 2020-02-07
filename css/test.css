@@ -19,6 +19,12 @@ main{
 	padding: 10px;
 }
 
+a{
+	font-family: Lato, sans-serif;
+	font-size: 15px
+}
+
+
 /* ~~ Boksjes ~~ */
 
 h3{
