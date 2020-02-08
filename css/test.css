@@ -1,50 +1,64 @@
-body{
+*{
 	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
 }
 
-header{
-	text-align: center;
-	padding-top: 20px;
+/* ~~ Header */
+.header{
+	width: 100%;
+	height: 80px;
+	display: block;
+
 }
 
-header h1{
-	font-family: 'Playfair Display', serif;
-	font-weight: 100;
-	font-size: 30px;
-	color: black;
-}
-
-main{
+.inner_header{
+	width: 90%;
+	height: 100%;
+	display: block;
 	margin: 0 auto;
-	padding: 10px;
 }
 
-/* ~~ Links */
-a{
+.logo_container{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+.logo_container h1{
+	color: black;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: Playfair Display, serif;
+	font-size: 32px;
+}
+
+.navigation{
+	float: right;
+	height: 100%;
+}
+
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+}
+
+.navigation a:last-child{
+	padding-right: 0;
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: black;
 	font-family: Lato, sans-serif;
-	font-size: 15px
+	font-size: 16px;
 }
-
-a:link {
-  text-decoration: none;
-  color: black;
-}
-
-a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  text-decoration: overline;
-  color: pink;
-}
-
-a:active {
-  text-decoration: underline;
-  color: black;
-}
-
 /* ~~ Image Box ~~ */
 h3{
 	font-family: Playfair Display, serif;
