@@ -5,6 +5,10 @@
 	text-decoration: none;
 }
 
+body{
+	background-color: #F1F0EB
+}
+
 /* ~~ Header */
 .header{
 	width: 100%;
@@ -61,7 +65,7 @@
 }
 
 .navigation a li:hover{
-	color: pink;
+	color: lightcoral;
 }
 
 /* ~~ Image Box ~~ */
