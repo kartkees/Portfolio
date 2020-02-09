@@ -46,6 +46,7 @@ body{
 	height: auto;
 	display: table-cell;
 	vertical-align: middle;
+	padding-top: 12.5px;
 }
 
 .navigation{
