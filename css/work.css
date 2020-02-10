@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: lato, sans-serif;
+}
+
+body{
+	background-color: #FEFEFA;
+}
+
+img{
+	max-width: 100%
+}
+
+p{
+	font-family:  'PT Serif', serif;
+	color: black;
+	font-size: 15px;
+
+}
+
+/* ~~ Header */
+.header{
+	width: 100%;
+	height: 100px;
+	display: block;
+
+}
+
+.inner_header{
+	width: 90%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo_container{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+
+.logo_container h1{
+	color: black;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: montserrat, serif;
+	font-size: 32px;
+}
+
+.header .inner_header .logo_container img{
+	width: 150px;
+	height: auto;
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 12.5px;
+}
+
+.navigation{
+	float: right;
+	height: 100%;
+}
+
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+}
+
+.navigation a:last-child{
+	padding-right: 0;
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: black;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+}
+
+.navigation a li:hover{
+	color: lightcoral;
+}
+
+/* ~~ Footer ~~ */
+
+.footer {
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding-right: 70px 0;
+  box-sizing: border-box;
+}
+
+.inner_footer{
+	display: block;
+	margin: 0 auto;
+	width: 1100px;
+	height: 100%;
+	padding: 20px;
+    text-align: center;
+}
+
+.footer .inner_footer p{
+	font-family: lato;
+	font-size: 12px;
+	color:grey;
+}
