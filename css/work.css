@@ -27,7 +27,6 @@ p{
 	height: 100px;
 	display: block;
 	background-color: #F1EBE4;
-
 }
 
 .inner_header{
@@ -88,6 +87,45 @@ p{
 
 .navigation a li:hover{
 	color: lightcoral;
+}
+
+/* ~~ Main Element */
+
+.intro{
+  width: 100%;
+  height: 300px;
+  display: block;
+  background-color: #F1EBE4;
+  text-align: center;
+}
+.inner_intro {
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 200px;
+  padding-top: 70px
+}
+
+.inner_intro h1{
+  font-family: Montserrat, sans-serif;
+  font-size: 
+}
+
+.inner_intro p{
+  font-family: PT Serif, serif;
+  font-size: 15px;
+}
+
+.container .row h1{
+	font-family: Montserrat, sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.container .row p{
+	font-family: PT Serif, serif;
+	font-size: 14px;
 }
 
 /* ~~ Footer ~~ */
