@@ -98,6 +98,7 @@ p{
   background-color: #F1EBE4;
   text-align: center;
 }
+
 .inner_intro {
   width: 90%;
   height: 100%;
@@ -126,6 +127,11 @@ p{
 .container .row p{
 	font-family: PT Serif, serif;
 	font-size: 14px;
+}
+
+figcaption{
+	font-family: lato, sans-serif;
+	font-size: 10px;
 }
 
 /* ~~ Footer ~~ */
