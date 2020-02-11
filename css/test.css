@@ -19,7 +19,7 @@ img{
 	width: 100%;
 	height: 100px;
 	display: block;
-	background-color: #F9EBEE;
+	background-color: #F1EBE4;
 
 }
 
@@ -83,6 +83,34 @@ img{
 	color: lightcoral;
 }
 
+/* ~~ Welcome box ~~*/
+
+.welcome_block{
+  width: 100%;
+  height: 300px;
+  display: block;
+  background-color: #F1EBE4;
+  text-align: center;
+}
+.inner_welcome_block {
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 200px;
+  padding-top: 70px
+}
+
+.inner_welcome_block h1{
+  font-family: Montserrat, sans-serif;
+  font-size: 
+}
+
+.inner_welcome_block p{
+  font-family: PT Serif, serif;
+  font-size: 15px;
+}
+
 /* ~~ Image Box ~~ */
 h3{
 	font-family: montserrat, serif;
@@ -121,7 +149,7 @@ h3{
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  background: #E0AFA4;
   position: absolute;
   height: 99%;
   width: 100%;
