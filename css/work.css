@@ -21,6 +21,15 @@ p{
 
 }
 
+h4{
+	color: black;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: montserrat, serif;
+	font-size: 20px;
+}
+
 /* ~~ Header */
 .header{
 	width: 100%;
