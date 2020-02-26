@@ -94,7 +94,7 @@ img{
   text-align: center;
 }
 .inner_welcome_block {
-  width: 90%;
+  width: 70%;
   height: 100%;
   display: block;
   margin: 0 auto;
@@ -104,7 +104,7 @@ img{
 
 .inner_welcome_block h1{
   font-family: Montserrat, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   color: #282828;
 }
 
@@ -115,6 +115,11 @@ img{
 }
 
 /* ~~ Image Box ~~ */
+
+.all_containers{
+  padding: 30px;
+}
+
 h3{
 	font-family: montserrat, serif;
 }
@@ -232,6 +237,7 @@ h3{
   width: 100vw;
   display: block;
   overflow: hidden;
+  padding-top: 50px;
   padding-right: 70px 0;
   box-sizing: border-box;
 }
